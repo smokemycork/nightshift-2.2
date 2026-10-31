@@ -1,0 +1,4 @@
+#!/bin/sh
+# Refresh the Audio Unit cache so hosts see NightShift immediately
+killall -9 AudioComponentRegistrar >/dev/null 2>&1 || true
+exit 0
